@@ -22,6 +22,7 @@
 	- 25 mM $CaCl_2$
 	- 5 mM $KCl$
 	- 4 mM MES (pH = 5.7)
+	- **mannitol?**
 - MMG solution
 	- 0.4 M mannitol
 	- 15 mM $MgCl_2$

@@ -7,7 +7,7 @@
 
 enzyme (cellulose, macerozyme) concentration in the paper [`Cymbidium petal paper`](02_md_file/Highly%20Efficient%20Protoplast%20Isolation%20and%20Transient%20Expression%20System%20for%20Functional%20Characterization%20of%20Flowering%20Related%20Genes%20in%20_Cymbidium_%20Orchids.md) is higher than that in paper [`Phalaenopsis petal paper`](02_md_file/A%20Protoplast%20Transient%20Expression%20System%20to%20Enable%20Molecular,%20Cellular,%20and%20Functional%20Studies%20in%20_Phalaenopsis_%20orchids.md)
 
-maybe it is because _Cymbidium_ leaf was harder to digest, since it were hard leather-like texture and _Phalanopsis_ were fleshy.^[Highly Efficient Leaf Base Protoplast
+maybe it is because _Cymbidium_ leaf(flower?) was harder to digest, since it were hard leather-like texture and _Phalanopsis_ were fleshy.^[Highly Efficient Leaf Base Protoplast
 Isolation and Transient Expression
 Systems for Orchids and Other
 Important Monocot Crops]

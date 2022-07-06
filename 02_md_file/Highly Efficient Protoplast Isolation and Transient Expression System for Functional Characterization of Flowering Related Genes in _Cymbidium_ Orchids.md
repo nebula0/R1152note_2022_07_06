@@ -55,3 +55,7 @@ factor affect protoplast isolation
 -  enzyme concentration
 -  incubation duration
 -  concentrations of D-mannitol (osmotic pressure)
+
+#### transfection
+> To sum up, factors affecting transfection efficiency were optimized as follows: transfection duration (15 min), PEG4000 concentration (25%) and 1 µg/µL of plasmid DNA. A high transfection efficiency of
+75–80% was achieved in orchid protoplasts.

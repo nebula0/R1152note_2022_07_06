@@ -1,0 +1,4 @@
+#paper_from_adviser 
+#read_partial 
+
+[A_chromosome‐scale_Gastrodia_elata_genome_and large‐scale_comparative_genomic_analysis](../paper/orchid/A_chromosome‐scale_Gastrodia_elata_genome_and%20large‐scale_comparative_genomic_analysis/A_chromosome‐scale_Gastrodia_elata_genome_and%20large‐scale_comparative_genomic_analysis.pdf)

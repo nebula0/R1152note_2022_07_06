@@ -117,3 +117,16 @@ make two colume file for edge R
 ```bash
 
 ```
+
+
+jcvi
+
+help
+```python
+python -m jcvi.formats.fasta translate --help
+```
+
+coding sequences to amino acids 
+```python
+python -m jcvi.formats.fasta translate GWHBDNU00000000.CDS.fasta --longest --unique --outfile=GWHBDNU00000000.aa.fasta
+```

@@ -1,4 +1,4 @@
-#統計
+#statistics 
 
 #### 斯皮爾曼spearman相關 
 可以用在非線性資料上(pearson用在線性上)，可以有離群值、非常態

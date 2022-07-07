@@ -1,4 +1,10 @@
 #C 
+
+## 庫函數
+```C
+#include<math.h>	
+double a = pow(3.14, 2);  // 计算3.14的平方
+```
 ## concept
 ### declare variable
 關於在 function 外這樣

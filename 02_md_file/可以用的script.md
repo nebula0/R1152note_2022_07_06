@@ -126,7 +126,20 @@ help
 python -m jcvi.formats.fasta translate --help
 ```
 
-coding sequences to amino acids 
+coding sequences to amino acids 我下的指令 有警告訊息
 ```python
 python -m jcvi.formats.fasta translate GWHBDNU00000000.CDS.fasta --longest --unique --outfile=GWHBDNU00000000.aa.fasta
+```
+```
+ls7046-5/python_enviroment1/for_jcvi/lib64/python3.6/site-packages/Bio/Seq.py:2983: BiopythonWarning: Partial codon, len(sequence) not a multiple of three. Explicitly trim the sequence or add trailing N before translation. This may become an error in future.  
+  BiopythonWarning,  
+Complete gene models: 33,552 of 33,561 (100.0%)  
+Missing 5`-end: 9 of 33,561 (0.0%)  
+Missing 3`-end: 0 of 33,561 (0.0%)  
+Contain Ns: 0 of 33,561 (0.0%)
+```
+
+老師下的指令 後來用這個跑出來的數據
+```python
+python -m jcvi.formats.fasta translate GWHBDNU00000000.CDS.fasta -o GWHBDNU00000000.aa.fasta
 ```

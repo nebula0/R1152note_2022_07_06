@@ -39,6 +39,7 @@ kanban-plugin: basic
 - [ ] [Efficient protoplast isolation and transient gene expression system](Efficient%20protoplast%20isolation%20and%20transient%20gene%20expression%20system.md)<br>for Phalaenopsis hybrid cultivar ‘Ruili Beauty’<br>- 2018<br>- Jinlan Li<br>- [link](https://link.springer.com/article/10.1007/s11627-017-9872-z)<br>- Nanjing Agricultural University<br>---<br>mesophyll
 - [ ] [Highly Efficient Leaf Base Protoplast Isolation and Transient Expression Systems for Orchids and Other Important Monocot Crops](Highly%20Efficient%20Leaf%20Base%20Protoplast%20Isolation%20and%20Transient%20Expression%20Systems%20for%20Orchids%20and%20Other%20Important%20Monocot%20Crops.md)<br>- 2021<br>- Rui Ren<br>- [link](https://www.frontiersin.org/articles/10.3389/fpls.2021.626015/full)<br>- Guangdong Academy of Agricultural Sciences<br>---<br>leaf base and other
 - [ ] [protoplast isolation protocol discussion and note](../protoplast%20isolation%20protocol%20discussion%20and%20note.md)
+- [ ] [Protoplast isolation prior to flow cytometry reveals clear patterns of endoreduplication in potato tubers, related](../Protoplast%20isolation%20prior%20to%20flow%20cytometry%20reveals%20clear%20patterns%20of%20endoreduplication%20in%20potato%20tubers,%20related.md)<br>species, and some starchy root crops<br>- 2017<br>- F. Parker E. Laimbeer<br>- [link](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-017-0177-3)<br>- Blacksburg(美國黑堡)
 
 
 ## RNA_seq

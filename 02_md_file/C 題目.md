@@ -48,3 +48,33 @@ for (int i = 0; i <= ARRAYSIZE; i++){
 }
 ```
 
+### bobble sort
+```C
+#include  <stdio.h>
+#include <stdbool.h>
+#include<math.h>
+#define ARRAYLEN 5
+
+int main() {
+
+    int arr[ARRAYLEN];
+    for (int i = 0; i < ARRAYLEN; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    for (int i = 0; i < ARRAYLEN - 1; i++) {
+        for (int i = 0; i < ARRAYLEN - 1; i++) {
+            int k = i + 1;
+            if (arr[k] > arr[i]){
+                int tmp = arr[i];
+                arr[i] = arr[k];
+                arr[k] = tmp;
+            }
+        }
+    }
+
+    for (int i = 0; i < ARRAYLEN; i++){
+        printf("%d", arr[i]);
+    }
+}
+```

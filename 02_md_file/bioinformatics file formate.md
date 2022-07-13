@@ -25,7 +25,7 @@
 		- where the feature begins with reference to the reading frame
 		- 0, 1, or 2, indicating the number of bases that should be removed from the beginning of this feature to reach the first base of the next codon
 	9. attributes
-	10. additional information 
+		- additional information 
 
 ![](https://learn.gencore.bio.nyu.edu/wp-content/uploads/2018/01/Screen-Shot-2018-01-07-at-10.08.12-PM-1024x368.png)
 ![](https://learn.gencore.bio.nyu.edu/wp-content/uploads/2018/01/Screen-Shot-2018-01-07-at-10.10.20-PM-1024x590.png)

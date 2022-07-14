@@ -10,6 +10,17 @@ control b d 離開
 perl -pe "system 'sleep .003'" log.txt
 ```
 
+把 field 拆開
+```perl
+# split 1st column then join with 2nd column
+
+# a,b,c 1 -> a 1
+#            b 1 
+#            c 1             
+
+$ perl -lane 'chomp; @l = split /\t/; for $c1(split /,/, $l[0]) { print join "\t", $c1, $l[1]; }' file.tsv
+```
+
 ### tee
 ```bash
 command > >(tee -a stdout.log) 2> >(tee -a stderr.log >&2)

@@ -2,6 +2,8 @@
 
 I used the sequence in Li-Hsuan Ho(2020)[^1] supplement data, which are primer, to blast genome sequence in Yuxing Xu(2021)[^2]
 
+blast program is provided by NCBI, all variable were set default, program selection optimize for Somewhat similar sequences (blastn)  
+
 the sequence which I used
 ```
 # primer in Li-Hsuan Ho(2020)

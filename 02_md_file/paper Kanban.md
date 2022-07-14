@@ -26,9 +26,9 @@ kanban-plugin: basic
 
 ## genome
 
-- [ ] [A chromosome-scale Gastrodia elata genome and large-scale comparative genomic analysis indicate convergent evolution by gene loss in mycoheterotrophic and parasitic plants](A%20chromosome-scale%20Gastrodia%20elata%20genome%20and%20large-scale%20comparative%20genomic%20analysis%20indicate%20convergent%20evolution%20by%20gene%20loss%20in%20mycoheterotrophic%20and%20parasitic%20plants.md)<br>- 2021<br>- Yuxing Xu<br>- [link](https://pubmed.ncbi.nlm.nih.gov/34647389/)<br>- Kunming(昆明) Institute of Botany<br>---<br>我們使用的是他們的 genome
 - [ ] [Improved _de novo_ Assembly of the Achlorophyllous Orchid _Gastrodia elata_](Improved%20_de%20novo_%20Assembly%20of%20the%20Achlorophyllous%20Orchid%20_Gastrodia%20elata_.md)<br>- 2020<br>- Shanshan Chen<br>- [link](https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/full)<br>- Zhengzhou(鄭州) University
 - [ ] [Chromosome-level genome assembly of the fully mycoheterotrophic orchid _Gastrodia elata_](Chromosome-level%20genome%20assembly%20of%20the%20fully%20mycoheterotrophic%20orchid%20_Gastrodia%20elata_.md)<br>- 2022<br>- Eun-Kyung Bae<br>- [link](https://academic.oup.com/g3journal/article/12/3/jkab433/6511440)<br>- National Institute of Forest Science, Suwon 16631, korea
+- [ ] [A chromosome-scale Gastrodia elata genome and large-scale comparative genomic analysis indicate convergent evolution by gene loss in mycoheterotrophic and parasitic plants](A%20chromosome-scale%20Gastrodia%20elata%20genome%20and%20large-scale%20comparative%20genomic%20analysis%20indicate%20convergent%20evolution%20by%20gene%20loss%20in%20mycoheterotrophic%20and%20parasitic%20plants.md)<br>- 2021<br>- Yuxing Xu<br>- [link](https://pubmed.ncbi.nlm.nih.gov/34647389/)<br>- Kunming(昆明) Institute of Botany<br>---<br>我們使用的是他們的 genome
 - [ ] [The _Gastrodia elata_ genome provides insights into plant adaptation to heterotrophy](The%20_Gastrodia%20elata_%20genome%20provides%20insights%20into%20plant%20adaptation%20to%20heterotrophy.md)<br>- 2018<br>- Yuan Yuan<br>- [link](https://www.nature.com/articles/s41467-018-03423-5)<br>- Beijing(北京), China
 
 

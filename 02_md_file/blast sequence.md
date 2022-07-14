@@ -18,7 +18,7 @@ GGGGACCACTTTGTACAAGAAAGCTGGGTGATC AGTGCATGCTGCCCATAGTTGC
 
 # genome sequence in Yuxing Xu(2021)
 too long, so i past directory here:
-## CDs
+## exon
 /scratch/ls7046/ls7046-5/genome.fasta/Gastrodia/sucrose_exon_mRNA.txt
 
 ## mRNA
@@ -27,7 +27,7 @@ too long, so i past directory here:
 
 result
 ```
-# CDs
+# exon
 
 Query: GeSUT4-5-BP Query ID: lcl|Query_42202 Length: 55
 

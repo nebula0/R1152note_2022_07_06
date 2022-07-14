@@ -27,6 +27,22 @@ too long, so i past directory here:
 /scratch/ls7046/ls7046-5/genome.fasta/Gastrodia/sucrose_mRNA.txt
 ```
 
+file generate process
+```bash
+# primer in Li-Hsuan Ho(2020)
+copy and paste sequence name, sequence in PDF file
+
+
+# genome sequence in Yuxing Xu(2021)
+## exon
+python -m jcvi.formats.gff load GWHBDNU00000000.gff GWHBDNU00000000.genome.fasta --parents=mRNA --children=exon --id_attribute=ID -o GWHBDNU00000000.exon.fasta
+python -m  jcvi.formats.fasta some GWHBDNU00000000.exon.fasta su_list.txt sucrose_exon_mRNA.txt
+
+## mRNA
+python -m jcvi.formats.gff load GWHBDNU00000000.gff GWHBDNU00000000.genome.fasta --parents=gene --children=mRNA --id_attribute=ID -o GWHBDNU00000000.mRNA.fasta
+python -m jcvi.formats.fasta some GWHBDNU00000000.mRNA.fasta su_list.txt sucrose_mRNA.txt
+```
+
 result
 ```
 # exon

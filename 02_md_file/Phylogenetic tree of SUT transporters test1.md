@@ -26,20 +26,12 @@ SUT2-IIA
 	https://www.ncbi.nlm.nih.gov/protein/BAC67164.1?report=fasta
 
 #### _Gastrodia elata_
-GelC15G00652    TAIR    sucrose transporter 2
+GelC15G00652    TAIR    sucrose transporter 2
+GelC09G01183    TAIR    sucrose transporter 2
+GelC12G00003    TAIR    sucrose transporter 2
+GelC07G01120    TAIR    sucrose transporter 4 GeSUT4
 
-GelC15G00652    nr      putative sucrose transporter protein, partial [Elaeis guineensis]  
-
-GelC15G00652    trEMBL  Putative sucrose transporter protein {ECO:0000313|EMBL:AEZ00892.1} (Fragment)
-
-_GelC09G01183    TAIR    sucrose transporter 2_
-
-_GelC12G00003    TAIR    sucrose transporter 2_
-
-GelC15G00651    TAIR    sucrose transporter 2
-
-**GelC07G01120    TAIR    sucrose transporter 4 GeSUT4**
-
+### input sequence
 ```
 >NP_177333.1 sucrose-proton symporter 1 [Arabidopsis thaliana] AtSUC1
 MGAYETEKPTKDAAALETQSPEDFDQPSPLRKIISVASIAAGVQFGWALQLSLLTPYVQLLGIPHKWSSL
@@ -124,13 +116,18 @@ GNIPAFALASAIAFACAIVGLFRLPRLSNSNFKATMGSMH*
 
 ```
 
-
-
-[^2]:A chromosome-scale Gastrodia elata genome and large-scale comparative genomic analysis indicate convergent evolution by gene loss in mycoheterotrophic and parasitic plants
-
-
+_Gastrodia elata_ aa sequences generating script
+pwd: ls7046-5/genome.fasta/Gastrodia/
 ```bash
 python -m jcvi.formats.fasta some GWHBDNU00000000.aa.fasta su_list_4.txt sucrose_aa_4.txt
 
 python -m jcvi.formats.fasta translate GWHBDNU00000000.CDS.fasta --longest --unique --outfile=GWHBDNU00000000.aa.fasta
 ```
+
+### result
+![](../attachment/Pasted%20image%2020220715152443.png)
+looks like more sequences are needed.
+
+
+
+[^2]:A chromosome-scale Gastrodia elata genome and large-scale comparative genomic analysis indicate convergent evolution by gene loss in mycoheterotrophic and parasitic plants

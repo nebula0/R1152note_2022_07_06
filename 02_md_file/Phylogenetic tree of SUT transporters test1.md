@@ -1,5 +1,6 @@
 #work_note 
 
+## test1
 ### Purpose  and method 
 We want to figure out sucrose transporter genes that expressed in _Gastrodia elata_ tuber (data from Lee PI) belongs to which subgroup (SUT1, SUT4, SUT2-IIA, SUT2-IIB)
 
@@ -11,19 +12,14 @@ amino acid sequences from other species were collected form NCBI, as for  _Gastr
 #### other species
 I picked one sequence from each sucrose transporter: 
 
-SUT1  
-	AtSUC1(At1g71880)  
-	https://www.ncbi.nlm.nih.gov/protein/15217601
-SUT4  
-	OsSUT2(BAC67163)  
-	https://www.ncbi.nlm.nih.gov/protein/BAC67163
-
-SUT2-IIB  
-	OsSUT3(BAB68368)  
-	https://www.ncbi.nlm.nih.gov/protein/BAB68368.1?report=fasta
-SUT2-IIA  
-	OsSUT4(BAC67164)  
-	https://www.ncbi.nlm.nih.gov/protein/BAC67164.1?report=fasta
+- SUT1  
+	- [AtSUC1(At1g71880)](https://www.ncbi.nlm.nih.gov/protein/15217601)	
+- SUT4  
+	- [OsSUT2(BAC67163)](https://www.ncbi.nlm.nih.gov/protein/BAC67163)
+- SUT2-IIB  
+	- [OsSUT3(BAB68368)](https://www.ncbi.nlm.nih.gov/protein/BAB68368.1?report=fasta)
+- SUT2-IIA  
+	- [OsSUT4(BAC67164)](https://www.ncbi.nlm.nih.gov/protein/BAC67164.1?report=fasta)
 
 #### _Gastrodia elata_
 GelC15G00652    TAIR    sucrose transporter 2  
@@ -33,6 +29,7 @@ GelC07G01120    TAIR    sucrose transporter 4 GeSUT4
 
 ### input sequence
 ```
+
 >NP_177333.1 sucrose-proton symporter 1 [Arabidopsis thaliana] AtSUC1
 MGAYETEKPTKDAAALETQSPEDFDQPSPLRKIISVASIAAGVQFGWALQLSLLTPYVQLLGIPHKWSSL
 IWLCGPVSGMIVQPIVGFHSDRCRSKFGRRRPFIATGAALVAVAVFLIGYAADFGYKMGDKLEEKVKVRA
@@ -127,6 +124,82 @@ python -m jcvi.formats.fasta translate GWHBDNU00000000.CDS.fasta --longest --uni
 ### result
 ![](../attachment/Pasted%20image%2020220715152443.png)  
 looks like more sequences are needed.
+
+
+
+
+## test2
+
+#### other species
+I picked one sequence from each sucrose transporter: 
+
+- SUT1  
+	- [AtSUC1(At1g71880)](https://www.ncbi.nlm.nih.gov/protein/15217601)	
+	- [AtSUC7 (At1g66570)](https://www.ncbi.nlm.nih.gov/protein/ABJ17121.1?report=fasta)
+	- 
+- SUT4  
+	- [OsSUT2(BAC67163)](https://www.ncbi.nlm.nih.gov/protein/BAC67163)
+- SUT2-IIB  
+	- [OsSUT3(BAB68368)](https://www.ncbi.nlm.nih.gov/protein/BAB68368.1?report=fasta)
+- SUT2-IIA  
+	- [OsSUT4(BAC67164)](https://www.ncbi.nlm.nih.gov/protein/BAC67164.1?report=fasta)
+
+### input sequence
+
+
+
+
+
+---
+Arabidopsis thaliana
+AtSUC1 (At1g71880), 
+AtSUC2 (At1g22710), 
+AtSUC3 (At2g02860), 
+AtSUC4 (At1g09960), 
+AtSUC5 (At1g71890), 
+AtSUC6 (At5g43610), 
+AtSUC7 (At1g66570), 
+AtSUC8 (At2g14670), 
+AtSUC9 (At5g06170); 
+
+Oriza sativa: 
+OsSUT1 (AAF90181), 
+OsSUT2 (BAC67163), 
+OsSUT3 (BAB68368), 
+OsSUT4 (BAC67164), 
+OsSUT5 (BAC67165); 
+
+Solanum tuberosum: 
+StSUT1 (CAA48915), 
+StSUT4 (AAG25923.2); 
+
+Zea mays: 
+ZmSUT1 (BAA83501), 
+ZmSUT2 (AAS91375), 
+ZmSUT3 (ACF86653), 
+ZmSUT4 (AAT51689), 
+ZmSUT5 (ACF85284), 
+ZmSUT6 (ACF85673); 
+
+Nicotiana tabacum: 
+NtSUT1 (X82276), 
+NtSUT3 (AAD34610), 
+NtSUT4 (BAI60050); S
+
+pinacia oleracea: S
+oSUT1 (Q03411); 
+
+Hordeum vulgare: 
+HvSUT1 (Q9M422), 
+HvSUT2 (Q9M423); 
+
+Medicago truncatula: 
+MtSUT1-1 (JN255789), 
+MtSUT1-2 (JN255790), 
+MtSUT1-3 (JN255791), 
+MtSUT2 (JN255792), 
+MtSUT4-1 (JN255793), 
+MtSUT4-2 (JN255794)
 
 
 

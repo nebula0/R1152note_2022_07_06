@@ -145,8 +145,7 @@ I picked one sequence from each sucrose transporter:
 	- [OsSUT4(BAC67164)](https://www.ncbi.nlm.nih.gov/protein/BAC67164.1?report=fasta)
 
 ### input sequence
-
-
+[[sucrose_transporter_aa.txt]]
 
 
 
@@ -182,7 +181,7 @@ ZmSUT5 (ACF85284),
 ZmSUT6 (ACF85673); 
 
 Nicotiana tabacum: 
-NtSUT1 (X82276), 
+NtSUT1 (X82276),                    not found
 NtSUT3 (AAD34610), 
 NtSUT4 (BAI60050); S
 
@@ -194,12 +193,12 @@ HvSUT1 (Q9M422),
 HvSUT2 (Q9M423); 
 
 Medicago truncatula: 
-MtSUT1-1 (JN255789), 
-MtSUT1-2 (JN255790), 
-MtSUT1-3 (JN255791), 
-MtSUT2 (JN255792), 
-MtSUT4-1 (JN255793), 
-MtSUT4-2 (JN255794)
+MtSUT1-1 (JN255789),                   not found
+MtSUT1-2 (JN255790),             not found
+MtSUT1-3 (JN255791),           not found
+MtSUT2 (JN255792),       not found
+MtSUT4-1 (JN255793),       not found
+MtSUT4-2 (JN255794)      not found
 
 
 

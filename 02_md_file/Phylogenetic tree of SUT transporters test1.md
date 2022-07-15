@@ -145,61 +145,65 @@ I picked one sequence from each sucrose transporter:
 	- [OsSUT4(BAC67164)](https://www.ncbi.nlm.nih.gov/protein/BAC67164.1?report=fasta)
 
 ### input sequence
-[[sucrose_transporter_aa.txt]]
+[[sucrose_transporter_aa.txt]]  
+[[sucrose_transporter_aa_rename.txt]]  
+Arabidopsis thaliana  
+AtSUC1 (At1g71880),   
+AtSUC2 (At1g22710),   
+AtSUC3 (At2g02860),   
+AtSUC4 (At1g09960),   
+AtSUC5 (At1g71890),   
+AtSUC6 (At5g43610),   
+AtSUC7 (At1g66570),   
+AtSUC8 (At2g14670),   
+AtSUC9 (At5g06170);   
 
+Oriza sativa:   
+OsSUT1 (AAF90181),   
+OsSUT2 (BAC67163),   
+OsSUT3 (BAB68368),   
+OsSUT4 (BAC67164),   
+OsSUT5 (BAC67165);   
 
+Solanum tuberosum:   
+StSUT1 (CAA48915),   
+StSUT4 (AAG25923.2);   
 
----
-Arabidopsis thaliana
-AtSUC1 (At1g71880), 
-AtSUC2 (At1g22710), 
-AtSUC3 (At2g02860), 
-AtSUC4 (At1g09960), 
-AtSUC5 (At1g71890), 
-AtSUC6 (At5g43610), 
-AtSUC7 (At1g66570), 
-AtSUC8 (At2g14670), 
-AtSUC9 (At5g06170); 
+Zea mays:   
+ZmSUT1 (BAA83501),   
+ZmSUT2 (AAS91375),   
+ZmSUT3 (ACF86653),   
+ZmSUT4 (AAT51689),   
+ZmSUT5 (ACF85284),   
+ZmSUT6 (ACF85673);   
 
-Oriza sativa: 
-OsSUT1 (AAF90181), 
-OsSUT2 (BAC67163), 
-OsSUT3 (BAB68368), 
-OsSUT4 (BAC67164), 
-OsSUT5 (BAC67165); 
+Nicotiana tabacum:   
+NtSUT1 (X82276),                    not found  
+NtSUT3 (AAD34610),   
+NtSUT4 (BAI60050); S  
 
-Solanum tuberosum: 
-StSUT1 (CAA48915), 
-StSUT4 (AAG25923.2); 
+pinacia oleracea:   
+SoSUT1 (Q03411);   
 
-Zea mays: 
-ZmSUT1 (BAA83501), 
-ZmSUT2 (AAS91375), 
-ZmSUT3 (ACF86653), 
-ZmSUT4 (AAT51689), 
-ZmSUT5 (ACF85284), 
-ZmSUT6 (ACF85673); 
+Hordeum vulgare:   
+HvSUT1 (Q9M422),   
+HvSUT2 (Q9M423);   
 
-Nicotiana tabacum: 
-NtSUT1 (X82276),                    not found
-NtSUT3 (AAD34610), 
-NtSUT4 (BAI60050); S
+Medicago truncatula:   
+MtSUT1-1 (JN255789),                   not found  
+MtSUT1-2 (JN255790),             not found  
+MtSUT1-3 (JN255791),           not found  
+MtSUT2 (JN255792),       not found  
+MtSUT4-1 (JN255793),       not found  
+MtSUT4-2 (JN255794)      not found  
 
-pinacia oleracea: S
-oSUT1 (Q03411); 
+### result
+![](../attachment/Pasted%20image%2020220715170737.png)
 
-Hordeum vulgare: 
-HvSUT1 (Q9M422), 
-HvSUT2 (Q9M423); 
-
-Medicago truncatula: 
-MtSUT1-1 (JN255789),                   not found
-MtSUT1-2 (JN255790),             not found
-MtSUT1-3 (JN255791),           not found
-MtSUT2 (JN255792),       not found
-MtSUT4-1 (JN255793),       not found
-MtSUT4-2 (JN255794)      not found
-
+compare to the tree in  Li-Hsuan Ho(2020)[^1]    
+![](../attachment/Pasted%20image%2020220715170856.png)
 
 
 [^2]:A chromosome-scale Gastrodia elata genome and large-scale comparative genomic analysis indicate convergent evolution by gene loss in mycoheterotrophic and parasitic plants
+[^1]:GeSUT4 mediates sucrose import at the symbiotic interface for carbon allocation of heterotrophic Gastrodia elata(Orchidaceae)
+

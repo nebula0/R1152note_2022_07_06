@@ -11,24 +11,24 @@ amino acid sequences from other species were collected form NCBI, as for  _Gastr
 #### other species
 I picked one sequence from each sucrose transporter: 
 
-SUT1
-	AtSUC1(At1g71880)
+SUT1  
+	AtSUC1(At1g71880)  
 	https://www.ncbi.nlm.nih.gov/protein/15217601
-SUT4
-	OsSUT2(BAC67163)
+SUT4  
+	OsSUT2(BAC67163)  
 	https://www.ncbi.nlm.nih.gov/protein/BAC67163
 
-SUT2-IIB
-	OsSUT3(BAB68368)
+SUT2-IIB  
+	OsSUT3(BAB68368)  
 	https://www.ncbi.nlm.nih.gov/protein/BAB68368.1?report=fasta
-SUT2-IIA
-	OsSUT4(BAC67164)
+SUT2-IIA  
+	OsSUT4(BAC67164)  
 	https://www.ncbi.nlm.nih.gov/protein/BAC67164.1?report=fasta
 
 #### _Gastrodia elata_
-GelC15G00652    TAIR    sucrose transporter 2
-GelC09G01183    TAIR    sucrose transporter 2
-GelC12G00003    TAIR    sucrose transporter 2
+GelC15G00652    TAIR    sucrose transporter 2  
+GelC09G01183    TAIR    sucrose transporter 2  
+GelC12G00003    TAIR    sucrose transporter 2  
 GelC07G01120    TAIR    sucrose transporter 4 GeSUT4
 
 ### input sequence
@@ -116,7 +116,7 @@ GNIPAFALASAIAFACAIVGLFRLPRLSNSNFKATMGSMH*
 
 ```
 
-_Gastrodia elata_ aa sequences generating script
+_Gastrodia elata_ aa sequences generating script  
 pwd: ls7046-5/genome.fasta/Gastrodia/
 ```bash
 python -m jcvi.formats.fasta some GWHBDNU00000000.aa.fasta su_list_4.txt sucrose_aa_4.txt
@@ -125,7 +125,7 @@ python -m jcvi.formats.fasta translate GWHBDNU00000000.CDS.fasta --longest --uni
 ```
 
 ### result
-![](../attachment/Pasted%20image%2020220715152443.png)
+![](../attachment/Pasted%20image%2020220715152443.png)  
 looks like more sequences are needed.
 
 

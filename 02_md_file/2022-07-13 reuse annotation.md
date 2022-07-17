@@ -114,47 +114,26 @@ gffcmp.tracking
 ```
 
 
-```
+```bash
+# generate two column file
 cut -f1,4 gffcmp.GWHAAEX00000000-RNA.gmap-format2-GWHBDNU-genome.gff3.tmap | cut -f1 -d '.' | sed 1d | sed -e's/GWHTAAEX/GWHGAAEX/g'|sort -k1nr > IDtwo_column_pre.tsv
 
-python -m jcvi.formats.base group --groupby=1 IDtwo_column_pre.tsv > IDtwo_column_sort_by_GWHA.tsv
+# delete line if first filed == "-"
+awk '$1 != "-"{print $0}' IDtwo_column_pre.tsv > IDtwo_column_pre_no-.tsv
+
+# group element based on second field(GWHAAEX00000000 gene ID index)
+python -m jcvi.formats.base group --groupby=1 IDtwo_column_pre_no-.tsv > IDtwo_column_sort_by_GWHA.tsv
 ```
 
 
 
 
-```
-cat GWHAAEX00000000_annotation.txt | wc -l
-17444
-
-$ cat IDtwo_column_sort_by_GWHA.tsv | wc -l
-18939
-
-```
-
----
-
-老師產生的最終檔案 其中一個
-```
-$ head Gelata.GOterm-to-GDNUgene.tsv
-GO:0005975      GelC13G00541
-GO:0004650      GelC13G00541
-GO:0005515      GelC13G00544
-GO:0003676      GelC13G00552
-GO:0008270      GelC13G00552
-GO:0009055      GelC13G00553
-GO:0016787      GelC13G00554
-GO:0070006      GelC13G00554
-GO:0016021      GelC13G00557
-GO:0016192      GelC13G00557
-
-```
-
-```
-awk -v OFS="\t" -v FS="\t" 'FNR==NR {a[$2]=$1; next} $1 in a {print a[$1], $2, $3, $4, $5}' IDtwo_column_sort_by_GWHA.tsv GWHAAEX00000000_annotation.txt
-
- 
+```bash
+# replace gene ID from GWHAAEX00000000 to GWHBDNU00000000
+awk -v OFS="\t" -v FS="\t" 'FNR==NR {a[$2]=$1; next} $1 in a {print a[$1], $2, $3, $4, $5}' IDtwo_column_sort_by_GWHA.tsv GWHAAEX00000000_annotation.txt > temp_GWHBDNU00000000_annotation.txt
  ```
+script explanation:[22_05_2022作業 awk join](22_05_2022作業%20awk%20join.md)
+
 ---
 
 ```bash
@@ -175,3 +154,23 @@ perl -lane 'chomp; @l = split /\t/; for $c1(split /,/, $l[0]) { print join "\t",
 join ID_c1.tsv ID_c2.tsv | join - ID_c3.tsv | join - ID_c4.tsv > ww.txt
 
 ```
+
+
+---
+
+老師產生的最終檔案 其中一個
+```
+$ head Gelata.GOterm-to-GDNUgene.tsv
+GO:0005975      GelC13G00541
+GO:0004650      GelC13G00541
+GO:0005515      GelC13G00544
+GO:0003676      GelC13G00552
+GO:0008270      GelC13G00552
+GO:0009055      GelC13G00553
+GO:0016787      GelC13G00554
+GO:0070006      GelC13G00554
+GO:0016021      GelC13G00557
+GO:0016192      GelC13G00557
+
+```
+

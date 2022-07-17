@@ -117,7 +117,7 @@ gffcmp.tracking
 ```
 cut -f1,4 gffcmp.GWHAAEX00000000-RNA.gmap-format2-GWHBDNU-genome.gff3.tmap | cut -f1 -d '.' | sed 1d | sed -e's/GWHTAAEX/GWHGAAEX/g'|sort -k1nr > IDtwo_column_pre.tsv
 
-python -m jcvi.formats.base group --groupby=0 IDtwo_column_pre.tsv > IDtwo_column_past1.tsv
+python -m jcvi.formats.base group --groupby=1 IDtwo_column_pre.tsv > IDtwo_column_sort_by_GWHA.tsv
 ```
 
 
@@ -151,7 +151,7 @@ GO:0016192      GelC13G00557
 ```
 
 ```
- awk -v OFS="\t" -v FS="\t" 'FNR==NR {a[$2]=$1; next} $1 in a {print a[$1], $2, $3, $4, $5}' IDtwo_column_sort_by_GWHA.tsv GWHAAEX00000000_annotation.txt
+awk -v OFS="\t" -v FS="\t" 'FNR==NR {a[$2]=$1; next} $1 in a {print a[$1], $2, $3, $4, $5}' IDtwo_column_sort_by_GWHA.tsv GWHAAEX00000000_annotation.txt
 
  
  ```

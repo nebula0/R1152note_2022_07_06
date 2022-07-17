@@ -1,3 +1,5 @@
+#work_note 
+
 ## gmap
 
 pre-requird step, build some files that will be use later
@@ -95,11 +97,13 @@ GWHBDNU00000013 GWHBDNU_2021    exon    23181047        23182523        99      
 ```
 
 ## gffcompare
+the previous step only map GWHAAEX00000000.RNA.fasta to GWHBDNU00000000.genome.fasta, but we still didn't get ID-ID relation.
+
 ```
 gffcompare -r GWHBDNU00000000.gff GWHAAEX00000000-RNA.gmap-format2-GWHBDNU-genome.gff3
 ```
 
-output file
+output files, maybe create a folder to place them will be better 
 ```
 gffcmp.annotated.gtf
 gffcmp.GWHAAEX00000000-RNA.gmap-format2-GWHBDNU-genome.gff3.refmap

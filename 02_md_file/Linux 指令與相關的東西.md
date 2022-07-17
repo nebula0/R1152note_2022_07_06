@@ -1,6 +1,12 @@
 #課堂筆記  #linux 
 
 # 筆記
+### uniq
+計算同樣的連續的 row 有幾個，搭配 sort 比較實用
+```
+uniq -c
+sort | uniq -c 
+```
 
 ### tmux
 control b d 離開

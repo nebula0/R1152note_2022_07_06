@@ -27,6 +27,10 @@ perl -pe "system 'sleep .003'" log.txt
 $ perl -lane 'chomp; @l = split /\t/; for $c1(split /,/, $l[0]) { print join "\t", $c1, $l[1]; }' file.tsv
 ```
 
+```PERL
+perl -lane 'chomp; @l = split /\t/; for $c1(split /,/, $l[0]) { print join "\t", $c1, $l[1],$l[2]}'
+```
+
 ### tee
 ```bash
 command > >(tee -a stdout.log) 2> >(tee -a stderr.log >&2)

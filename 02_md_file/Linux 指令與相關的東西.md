@@ -24,7 +24,7 @@ perl -pe "system 'sleep .003'" log.txt
 #            b 1 
 #            c 1             
 
-$ perl -lane 'chomp; @l = split /\t/; for $c1(split /,/, $l[0]) { print join "\t", $c1, $l[1]; }' file.tsv
+perl -lane 'chomp; @l = split /\t/; for $c1(split /,/, $l[0]) { print join "\t", $c1, $l[1]; }' file.tsv
 ```
 
 ```PERL

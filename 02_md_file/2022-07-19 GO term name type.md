@@ -15,10 +15,3 @@ awk -v RS='Term' -v FS='\n' -v OFS='\t' 'NR>=4{print $2, $3, $4}' GO_term_to_nam
 paste temp_go_term_all.txt temp_go_name_all.txt | paste - temp_go_type_all.txt > GO_term_name_type_all_cleaned_2022_07.tsv
 
 ```
-
-or
-
-```bash
-awk -v RS='Term' -v FS='\n' -v OFS='\t' 'NR>=4{print $2}' GO_term_to_name_full_2022_07.txt | grep id: | cut -d " " -f2 > temp_go_term_all.txt
-
-```
